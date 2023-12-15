@@ -6,8 +6,9 @@
         private ConsoleColor _color;
         private readonly int _number;
 
-        public Card(int number)
+        public Card(int number, ConsoleColor color)
         {
+            _color = color;
             _number = number;
         }
 
